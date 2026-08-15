@@ -4,7 +4,7 @@ A minimal black-and-white [niri](https://github.com/YaLTeR/niri).
 
 | | | | | | |
 |---|---|---|
-| ![burmalda](preview/burmalda.png) | ![fetch](preview/fetch.png) | ![Firefox](preview) |
+| ![burmalda](preview/burmalda.png) | ![fetch](preview/fetch.png) | ![Firefox](preview/firefox.png) |
 
 ## Firefox settings
 Change these parameters in firefox. Also change theme on this [nicedarktheme](https://addons.mozilla.org/en-US/firefox/addon/nicedarktheme/)
@@ -16,25 +16,30 @@ Change these parameters in firefox. Also change theme on this [nicedarktheme](ht
 
 ```
 
-├── niri/config.kdl         niri window rules, gaps, focus ring, wallpaper
+├── niri/config.kdl          niri window rules, gaps, focus ring, wallpaper
 ├── alacritty/alacritty.toml terminal colors + opacity
 ├── fastfetch/config.jsonc   fastfetch module list + white/gray color scheme for nixos logo
-├── fetch/config     3D fetch
-├── firefox-screenshots/             firefox parameters
-└── wallpaper/		wallpaper	   
+├── fetch/config             3D fetch
+├── firefox-screenshots/     firefox parameters
+└── wallpaper/		     wallpaper	   
 ```
 
 ## Install
 
-Install niri, swaybg, firefox, fuzzel. And tty-utilities: fastfetch, tty-clock, fetch, cmatrix.
+Install niri, swaybg. And tty-utilities: fastfetch, tty-clock, fetch, cmatrix.
+
+Arch / Arch-based
 
 ```
-sudo pacman -S niri swaybg fuzzel fastfetch tty-clock cmatrix
+sudo pacman -S niri swaybg fastfetch tty-clock cmatrix
 yay -S fetch-git
-
-sudo apt install niri swaybg fuzzel fastfetch tty-clock cmatrix
 ```
-For installing fetch on other system use cmake. Go to [fetch github](https://github.com/areofyl/fetch).
+Debian / Debian-based
+```
+sudo apt install niri swaybg fastfetch tty-clock cmatrix
+```
+
+For installing fetch on Debian and other system use cmake. Go to [fetch github](https://github.com/areofyl/fetch).
 
 Copy the config and change the parameters you need:
 
@@ -59,3 +64,4 @@ Also check out **[ertdfgcvb.xyz](https://ertdfgcvb.xyz/)**
 
 ## Notes
 
+This is my first work released on GitHub. Also i want about fork dwm - vxwm on wayland. Watch my repos.
