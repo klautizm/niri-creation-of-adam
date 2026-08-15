@@ -40,7 +40,7 @@ Debian / Debian-based
 sudo apt install niri swaybg fastfetch tty-clock cmatrix
 ```
 
-For installing fetch on Debian and other system use cmake. Go to [fetch github](https://github.com/areofyl/fetch).
+For installing fetch on Debian and other system use guide out fetch github page. Go to [fetch github](https://github.com/areofyl/fetch#package-managers).
 
 Copy the config and change the parameters you need:
 
@@ -65,4 +65,4 @@ Also check out **[ertdfgcvb.xyz](https://ertdfgcvb.xyz/)**
 
 ## Notes
 
-This is my first work released on GitHub. 
+This is my first work released on GitHub. I hope I’ve presented and explained it well.
