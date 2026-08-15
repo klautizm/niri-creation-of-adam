@@ -46,6 +46,7 @@ Copy the config and change the parameters you need:
 
 | Tool | Where it goes |
 |---|---|
+| Niri | `~/.config/niri/config.kdl` |
 | Alacritty | `~/.config/alacritty/alacritty.toml` |
 | fastfetch | `~/.config/fastfetch/config.jsonc` |
 | fetch | `~/.config/fetch/config` |
