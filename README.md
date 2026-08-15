@@ -51,7 +51,7 @@ Copy the config and change the parameters you need:
 | fastfetch | `~/.config/fastfetch/config.jsonc` |
 | fetch | `~/.config/fetch/config` |
 
-Change values in your config out /'niri creation of adam'/niri/config.kdl
+Edit gaps, colors etc. in your config basing them on values from /niri-creation-of-adam/niri/config.kdl
 
 ## Terminal utilities
 
