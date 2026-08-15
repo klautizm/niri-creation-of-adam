@@ -1,48 +1,61 @@
 # niri creation of adam
 
-A minimal black-and-white [niri](https://github.com/YaLTeR/niri) rice — thin white focus ring, no borders, soft shadows, and a matching Alacritty + fastfetch theme.
+A minimal black-and-white [niri](https://github.com/YaLTeR/niri).
 
-## Screenshots
+| | | | | | |
+|---|---|---|
+| ![burmalda](preview/burmalda.png) | ![fetch](preview/fetch.png) | ![Firefox](preview) |
 
+## Firefox settings
+Change these parameters in firefox. Also change theme on this [nicedarktheme](https://addons.mozilla.org/en-US/firefox/addon/nicedarktheme/)
 | | |
 |---|---|
-| ![Firefox](screenshots/firefox.png) | ![Firefox](screenshots/firefox1.png) |
+| ![Firefox](firefox-screenshots/firefox.png) | ![Firefox](firefox-screenshots/firefox1.png) |
 
 ## What's inside
 
 ```
-.
+
 ├── niri/config.kdl         niri window rules, gaps, focus ring, wallpaper
 ├── alacritty/alacritty.toml terminal colors + opacity
-├── fastfetch/config.jsonc   fastfetch module list + white/gray color scheme
-├── areofyl-fetch/config     alternative fetch tool config (fields, 3D logo spin)
-└── screenshots/             previews
+├── fastfetch/config.jsonc   fastfetch module list + white/gray color scheme for nixos logo
+├── fetch/config     3D fetch
+├── firefox-screenshots/             firefox parameters
+└── wallpaper/		wallpaper	   
 ```
 
 ## Install
 
-Copy the config you want into its usual place:
+Install niri, swaybg, firefox, fuzzel. And tty-utilities: fastfetch, tty-clock, fetch, cmatrix.
+
+```
+sudo pacman -S niri swaybg fuzzel fastfetch tty-clock cmatrix
+yay -S fetch-git
+
+sudo apt install niri swaybg fuzzel fastfetch tty-clock cmatrix
+```
+For installing fetch on other system use cmake. Go to [fetch github](https://github.com/areofyl/fetch).
+
+Copy the config and change the parameters you need:
 
 | Tool | Where it goes |
 |---|---|
-| niri | `~/.config/niri/config.kdl` |
 | Alacritty | `~/.config/alacritty/alacritty.toml` |
 | fastfetch | `~/.config/fastfetch/config.jsonc` |
-| areofyl-fetch | `~/.config/areofyl-fetch/config` |
+| fetch | `~/.config/fetch/config` |
 
-Don't forget to change the wallpaper path in `niri/config.kdl` to point at your own image, and set `spawn-at-startup "swaybg"` up if you don't already have a wallpaper daemon running.
+Change values in your config out /'niri creation of adam'/niri/config.kdl
 
-## Bonus terminal eye-candy
+## Terminal utilities
 
-A couple of extra commands that fit the vibe of this setup:
+A couple of commands:
 
 ```bash
-tty-clock -c -C 7   # centered clock
+tty-clock -c -C 7   # centered white clock
 cmatrix -C white     # matrix rain, white on black
 ```
 
-Also check out **[ertdfgcvb.xyz](https://ertdfgcvb.xyz/)** — a cool ASCII-art site, same kind of aesthetic as this rice.
+Also check out **[ertdfgcvb.xyz](https://ertdfgcvb.xyz/)**
 
 ## Notes
 
-This is a personal setup shared as-is — tweak colors, gaps, and opacity to taste.

@@ -1,7 +1,7 @@
-// Wallpaper
-spawn-at-startup "swaybg" "-i" "/home/your_user/Pictures/.wallpapers/output.jpeg"
+# Wallpaper. Don't forget about change wallpaper path
+spawn-at-startup "swaybg" "-i" /home/your_user/'niri-creation-of-adam'/wallpaper/output.jpeg
 
-// Layout / window look
+# Replace this to your niri config
 layout {
     gaps 16
 }
