@@ -62,7 +62,7 @@ tty-clock -c -C 7   # centered white clock
 cmatrix -C white     # matrix rain, white on black
 ```
 
-Also check out **[ertdfgcvb.xyz](https://ertdfgcvb.xyz/)**
+Also check out **[ertdfgcvb.xyz](https://ertdfgcvb.xyz/)** and **[ertdfgcvb.xyz/screensaver](https://ertdfgcvb.xyz/?mode=screensaver)**
 
 ## Notes
 
