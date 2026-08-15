@@ -66,4 +66,4 @@ Also check out **[ertdfgcvb.xyz](https://ertdfgcvb.xyz/)** and **[ertdfgcvb.xyz/
 
 ## Notes
 
-This is my first work released on GitHub. I hope I’ve presented and explained it well.
+This is my first work released on GitHub. I hope i’ve presented and explained it well. I might improve this repository in the future.
