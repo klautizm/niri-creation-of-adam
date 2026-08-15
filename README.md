@@ -7,7 +7,7 @@ A minimal black-and-white [niri](https://github.com/YaLTeR/niri).
 | ![burmalda](preview/burmalda.png) | ![fetch](preview/fetch.png) | ![Firefox](preview/firefox.png) |
 
 ## Firefox settings
-Change these parameters in firefox. Also change theme on this [nicedarktheme](https://addons.mozilla.org/en-US/firefox/addon/nicedarktheme/)
+Change these parameters in firefox: off search, shortcuts and everything else like in the screenshot; horizontal tabs to vertical tabs; . Also change theme on this [nicedarktheme](https://addons.mozilla.org/en-US/firefox/addon/nicedarktheme/)
 | | |
 |---|---|
 | ![Firefox](firefox-screenshots/firefox.png) | ![Firefox](firefox-screenshots/firefox1.png) |
@@ -21,7 +21,8 @@ Change these parameters in firefox. Also change theme on this [nicedarktheme](ht
 ├── fastfetch/config.jsonc   fastfetch module list + white/gray color scheme for nixos logo
 ├── fetch/config             3D fetch
 ├── firefox-screenshots/     firefox parameters
-└── wallpaper/		     wallpaper	   
+├── wallpaper/		     wallpaper	   
+├── preview/		     niri screenshots
 ```
 
 ## Install
@@ -64,4 +65,4 @@ Also check out **[ertdfgcvb.xyz](https://ertdfgcvb.xyz/)**
 
 ## Notes
 
-This is my first work released on GitHub. Also i want about fork dwm - vxwm on wayland. Watch my repos.
+This is my first work released on GitHub. 
