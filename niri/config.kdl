@@ -1,0 +1,26 @@
+// Wallpaper
+spawn-at-startup "swaybg" "-i" "/home/your_user/Pictures/.wallpapers/output.jpeg"
+
+// Layout / window look
+layout {
+    gaps 16
+}
+
+focus-ring {
+    width 1
+    active-color "#ffffff"
+    inactive-color "#505050"
+}
+
+border {
+    off
+}
+
+shadow {
+    on
+}
+
+window-rule {
+    match app-id="firefox"
+    opacity 0.9
+}
