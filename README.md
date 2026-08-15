@@ -2,7 +2,7 @@
 
 A minimal black-and-white [niri](https://github.com/YaLTeR/niri).
 
-| | | | | | |
+| | | |
 |---|---|---|
 | ![burmalda](preview/burmalda.png) | ![fetch](preview/fetch.png) | ![Firefox](preview/firefox.png) |
 
